@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "testmod:ruby"
+    },
+    "title": {
+      "translate": "advancements.shiny_thing.title"
+    },
+    "description": {
+      "translate": "advancements.shiny_thing.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shiny_thing": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "testmod:ruby"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  }
+}

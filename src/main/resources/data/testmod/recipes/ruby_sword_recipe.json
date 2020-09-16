@@ -1,0 +1,24 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:ruby"
+    },
+    "1": {
+      "item": "testmod:ruby"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "testmod:ruby_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testmod:blocks/unnamed",
+    "up": "testmod:blocks/unnamed",
+    "north": "testmod:blocks/unnamed",
+    "east": "testmod:blocks/unnamed",
+    "south": "testmod:blocks/unnamed",
+    "west": "testmod:blocks/unnamed",
+    "particle": "testmod:blocks/unnamed"
+  }
+}

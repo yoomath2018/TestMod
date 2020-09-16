@@ -1,0 +1,42 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:ruby"
+    },
+    "1": {
+      "item": "testmod:ruby"
+    },
+    "2": {
+      "item": "testmod:ruby"
+    },
+    "3": {
+      "item": "testmod:ruby"
+    },
+    "4": {
+      "item": "testmod:ruby"
+    },
+    "5": {
+      "item": "testmod:ruby"
+    },
+    "6": {
+      "item": "testmod:ruby"
+    },
+    "7": {
+      "item": "testmod:ruby"
+    },
+    "8": {
+      "item": "testmod:ruby"
+    }
+  },
+  "result": {
+    "item": "testmod:ruby_block",
+    "count": 1
+  }
+}
