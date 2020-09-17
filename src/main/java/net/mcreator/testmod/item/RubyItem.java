@@ -2,14 +2,12 @@
 package net.mcreator.testmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.testmod.itemgroup.RubyMaterialsItemGroup;
 import net.mcreator.testmod.TestmodModElements;
 
 @TestmodModElements.ModElement.Tag
@@ -26,7 +24,7 @@ public class RubyItem extends TestmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64));
+			super(new Item.Properties().group(RubyMaterialsItemGroup.tab).maxStackSize(64));
 			setRegistryName("ruby");
 		}
 
@@ -43,12 +41,6 @@ public class RubyItem extends TestmodModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public boolean hasEffect(ItemStack itemstack) {
-			return true;
 		}
 	}
 }

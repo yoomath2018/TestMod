@@ -1,0 +1,30 @@
+{
+  "group": "testmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "testmod:ruby"
+    },
+    "1": {
+      "item": "testmod:ruby"
+    },
+    "2": {
+      "item": "testmod:ruby"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "testmod:ruby_pickaxe",
+    "count": 1
+  }
+}

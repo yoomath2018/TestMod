@@ -4,7 +4,7 @@ package net.mcreator.testmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -13,26 +13,26 @@ import net.mcreator.testmod.itemgroup.RubyMaterialsItemGroup;
 import net.mcreator.testmod.TestmodModElements;
 
 @TestmodModElements.ModElement.Tag
-public class RubySwordItem extends TestmodModElements.ModElement {
-	@ObjectHolder("testmod:ruby_sword")
+public class RubyPickaxeItem extends TestmodModElements.ModElement {
+	@ObjectHolder("testmod:ruby_pickaxe")
 	public static final Item block = null;
-	public RubySwordItem(TestmodModElements instance) {
-		super(instance, 5);
+	public RubyPickaxeItem(TestmodModElements instance) {
+		super(instance, 10);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 100;
 			}
 
 			public float getEfficiency() {
-				return 3.5f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class RubySwordItem extends TestmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(RubyItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(RubyMaterialsItemGroup.tab)) {
-		}.setRegistryName("ruby_sword"));
+		}, 1, -3f, new Item.Properties().group(RubyMaterialsItemGroup.tab)) {
+		}.setRegistryName("ruby_pickaxe"));
 	}
 }

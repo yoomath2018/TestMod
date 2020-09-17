@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Ruby",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:RubyMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -20,7 +20,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
