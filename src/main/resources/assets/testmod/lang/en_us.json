@@ -1,13 +1,18 @@
 {
+  "item.testmod.ruby_armor_leggings": "Ruby Leggings",
+  "advancements.shiny_thing.descr": "Get the Ruby",
+  "item.testmod.ruby_armor_boots": "Ruby Boots",
+  "block.testmod.ruby_block": "Ruby Block",
+  "item.testmod.ruby": "Ruby",
+  "enchantment.testmod.faithof_ruby": "Faith of Ruby",
+  "item.testmod.ruby_armor_chestplate": "Ruby Body",
   "item.testmod.ruby_pickaxe": "Ruby Pickaxe",
   "entity.testmod.ruby_creeper": "Ruby Creeper",
+  "item.testmod.ruby_armor_helmet": "Ruby Helmet",
   "item.testmod.ruby_sword": "Ruby Sword",
   "item.testmod.ruby_creeper": "Ruby Creeper Spawn Egg",
-  "advancements.shiny_thing.descr": "Get the Ruby",
   "block.testmod.ruby_ore": "Ruby Ore",
   "advancements.shiny_thing.title": "Shiny Thing",
   "item.testmod.red_bread": "Ruby Bread",
-  "block.testmod.ruby_block": "Ruby Block",
-  "itemGroup.tabruby_materials": "Ruby Materials",
-  "item.testmod.ruby": "Ruby"
+  "itemGroup.tabruby_materials": "Ruby Materials"
 }
